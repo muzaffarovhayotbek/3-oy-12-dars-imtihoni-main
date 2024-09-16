@@ -1,0 +1,115 @@
+
+$dark: rgba(41, 40, 48, 1);
+$light: rgba(189, 189, 189, 1);
+.product {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 139px 165px;
+}
+.product-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    h2 {
+        font-family: "Hind Siliguri";
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 96px;
+        color: $dark;
+    }
+    P {
+        width: 365px;
+        font-family: "Hind Siliguri";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 38.81px;
+        color: $light;
+    }
+}
+
+.product-right {
+    margin-top: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    .product_cross {
+        padding: 63px 65px;
+        width: 350px;
+        height: 350px;
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    h2 {
+        padding-top: 24px;
+        font-family: "  Hind Siliguri";
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+    }
+    p {
+        padding-top: 12px;
+        font-family: "Hind Siliguri";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.64px;
+        text-align: center;
+        color: $light;
+    }
+}
+
+.cloud {
+    padding: 63px 65px;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 1);
+    h2 {
+        padding-top: 24px;
+        font-family: "Hind Siliguri";
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        color: $dark;
+    }
+
+    p {
+        font-family: "Hind Siliguri";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.64px;
+        text-align: center;
+        color: $light;
+    }
+}
+
+.pure {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 63px 65px;
+    h2 {
+        font-family: "Hind Siliguri";
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+    }
+    p {
+        font-family: "Hind Siliguri";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.64px;
+        text-align: center;
+        color: $light;
+    }
+}
+
+.product-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100%;
+}

@@ -1,0 +1,26 @@
+.nav {
+  margin-bottom: 24px;
+}
+.nav__container {
+  width: 1440px;
+  height: 712px;
+  background-color: rgba(255, 114, 53, 1);
+  padding: 87px 165px;
+  text-overflow: hidden;
+}
+
+.logo {
+  margin-top: 86px;
+  margin-bottom: 69px;
+  align-items: center;
+  display: flex;
+  gap: 108px;
+  img {
+    margin-bottom: 69px;
+  }
+  img:hover{
+    filter: grayscale(50%) brightness(120%) contrast(80%) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
+  }
+  
+}

@@ -1,0 +1,215 @@
+
+.footer__container {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+    .footer-head {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  
+      .footer-bottom-left {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+  }
+  
+  .footer-icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 300px;
+    margin-right: 172px;
+    h5 {
+      font-family: sans-serif;
+      font-size: 23px;
+      font-weight: 500;
+      line-height: 21.85px;
+      text-align: left;
+      color: #000000;
+    }
+  }
+  
+  .footer-link {
+    margin-right: 123px;
+    h6 {
+      font-family: "Hind Siliguri";
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 38.81px;
+      margin-bottom: 18px;
+    }
+  
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+  
+      a {
+        font-family: "Hind Siliguri";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29.11px;
+        color: #292830;
+      }
+    }
+  }
+  
+  .footer-legal {
+    margin-right: 128px;
+    h6 {
+      font-family: Hind Siliguri;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 38.81px;
+  
+      margin-bottom: 18px;
+    }
+  
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+  
+      a {
+        font-family: "  Hind Siliguri";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29.11px;
+        text-align: left;
+  
+        color: #292830;
+      }
+    }
+  }
+  
+  .footer-input {
+    width: 349px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+  
+    h6 {
+      font-family: "Hind Siliguri";
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 38.81px;
+      text-align: left;
+  
+      margin-bottom: 24px;
+      color: #000000;
+    }
+  
+    a {
+      font-family: sans-serif; // o'zgaruvchi o'rniga qiymat
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22.64px;
+      text-align: left;
+      color: #007bff; // o'zgaruvchi o'rniga qiymat
+      margin-top: 10px;
+    }
+  
+    h5 {
+      font-family: "Hind Siliguri";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32.34px;
+      margin-bottom: 18px;
+      color: #bdbdbd;
+    }
+  
+    .footer-submit {
+      width: 349px;
+      height: 62px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      border: 1px solid #292830;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      justify-content: center;
+  
+      button {
+        width: 102px;
+        height: 48px;
+        background-color: #ff7235;
+        border: none;
+        border-radius: 8px;
+  
+        font-family: sans-serif; // o'zgaruvchi o'rniga qiymat
+        font-size: 14px; // o'zgaruvchi o'rniga qiymat
+        font-weight: 600;
+        line-height: 25.87px;
+        text-align: left;
+        color: #ffffff; // o'zgaruvchi o'rniga qiymat
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      input {
+        border: none;
+        font-family: "Hind Siliguri";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29.11px;
+  
+        color: #292830;
+        width: 200px;
+        height: 40px;
+        padding-left: 10px;
+      }
+    }
+  }
+  
+  .footer-bottom {
+    border-top: 3px solid #bdbdbd33;
+    height: 150px;
+    a {
+      font-family: "Hind Siliguri";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22.64px;
+      color: #292830;
+    }
+  }
+  
+  .footer-bottom-foot {
+    a {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22.64px;
+      text-align: left;
+    }
+  }
+  
+  .footer-bottom-right {
+    a {
+      font-family: "Hind Siliguri";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22.64px;
+      text-align: left;
+  
+      color: #000000;
+    }
+  }
+  
+  .footer-bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  

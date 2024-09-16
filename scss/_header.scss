@@ -1,0 +1,88 @@
+@mixin header-style($margin-top: 27px, $margin-bottom: 27px) {
+  margin-top: $margin-top;
+  margin-bottom: $margin-bottom;
+}
+
+@mixin header-container-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin header-icon-style {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  h2 {
+    font-family: "Hind Siliguri";
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 21.85px;
+  }
+}
+
+@mixin header-ul-style {
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  display: flex;
+
+  a {
+    font-family: "Hind Siliguri";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17.1px;
+    color: rgba(41, 40, 48, 1);
+    transition: all 0.5s;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+
+@mixin header-button-style {
+  button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #ff7235;
+    font-family: "Hind Siliguri";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17.1px;
+    background-color: #fff;
+    color: rgba(255, 114, 53, 1);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+header {
+  @include header-style();
+}
+
+.header__container {
+  @include header-container-style();
+}
+
+.header-icon {
+  @include header-icon-style();
+}
+
+.header-ul {
+  @include header-ul-style();
+}
+
+.header-button {
+  @include header-button-style();
+}
+
+

@@ -1,0 +1,54 @@
+
+$light: rgba(189, 189, 189, 1);
+$main_color: rgba(255, 114, 53, 1);
+.use__container {
+  display: flex;
+  gap: 33px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 149px 162px 148px 165px;
+}
+
+.use-left {
+  h6 {
+    text-transform: uppercase;
+    font-family: "Hind Siliguri";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    color: $light;
+  }
+  h2 {
+    padding-top: 24px;
+    font-family: "Hind Siliguri";
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    color: rgba(0, 0, 0, 1);
+  }
+  p {
+    font-family: "Hind Siliguri";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+    color: $light;
+    padding-bottom: 24px;
+  }
+}
+
+.use-icon{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    a{
+        font-family: 'Hind Siliguri';
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        color: $main_color;
+        transition: all 0.5s;        
+    }
+    a:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+}

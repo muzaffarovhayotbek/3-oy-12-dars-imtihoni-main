@@ -1,22 +1,25 @@
 .nav {
-  margin-bottom: 24px;
-  background-color: rgba(255, 114, 53, 1);
-  height: 712px;
+  
 
+}
+.nav__container{
+  background-color: rgba(255, 114, 53, 1);
+  width: 1110px;
+  
   padding: 87px 165px;
+  margin-bottom: 24px;
+  height: 712px;
   text-overflow: hidden;
 
-  width: 1440px;
 }
 
 .logo {
-  margin-top: 86px;
+  margin-top: 100px;
   margin-bottom: 69px;
   align-items: center;
   display: flex;
   gap: 108px;
   img {
-    // display: none;
     margin-bottom: 69px;
   }
   img:hover {
@@ -24,3 +27,4 @@
     cursor: pointer;
   }
 }
+

@@ -3,7 +3,7 @@
   width: 1110px;
   height: 750px;
   background-color: #ff7235;
-  padding: 120px 260px 306px 260px;
+  padding: 100px 130px;
   h2 {
     font-family: 'Hind Siliguri';
     font-size: 72px;
@@ -39,9 +39,11 @@
     line-height: 20.9px;
     color: #ff7235;
   }
-  button:hover{
+  button:hover {
     cursor: pointer;
-    text-decoration: underline;
+  }
+  button:active{
+    transform: scale(0.95);
   }
 }
 .demo-left {

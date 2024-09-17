@@ -58,9 +58,13 @@
     line-height: 17.1px;
     background-color: #fff;
     color: rgba(255, 114, 53, 1);
+    transition: all 0.5s;
 
     &:hover {
       cursor: pointer;
+    }
+    &:active {
+      transform: scale(0.95);
     }
   }
 }
@@ -85,4 +89,57 @@ header {
   @include header-button-style();
 }
 
+/* Media Queries */
+@media (max-width: 992px) {
+  .header__container {
+    flex-direction: column;
+  }
 
+  .header-ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header-button button {
+    width: 140px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-icon h2 {
+    font-size: 20px;
+    line-height: 19px;
+  }
+
+  .header-ul a {
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .header-button button {
+    width: 120px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 568px) {
+  .header-icon h2 {
+    font-size: 18px;
+    line-height: 17px;
+  }
+
+  .header-ul {
+    gap: 15px;
+  }
+
+  .header-ul a {
+    font-size: 14px;
+    line-height: 13px;
+  }
+
+  .header-button button {
+    width: 100px;
+    height: 32px;
+  }
+}

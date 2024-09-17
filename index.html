@@ -108,27 +108,7 @@
   </head>
 
   <body>
-    <div class="mode-selector">
-      <button class="light-mode-btn" id="light-mode">Light Mode</button>
-      <button class="dark-mode-btn" id="dark-mode">Dark Mode</button>
-      <button class="blue-mode-btn" id="blue-mode">Blue Mode</button>
-      <button class="green-mode-btn" id="green-mode">Green Mode</button>
-    </div>
-    <script>
-      document
-        .getElementById("dark-mode-toggle")
-        .addEventListener("click", function () {
-          document.body.classList.add("dark-mode");
-          document.body.classList.remove("light-mode");
-        });
-
-      document
-        .getElementById("light-mode-toggle")
-        .addEventListener("click", function () {
-          document.body.classList.add("light-mode");
-          document.body.classList.remove("dark-mode");
-        });
-    </script>
+   
     <!-- Logotipni ko'rsatish uchun -->
     <div class="splash-screen" id="splash-screen">
       <img src="./images/samsung.svg" alt="Logo" />
@@ -174,6 +154,7 @@
             <p>Helps you to organize your income and expenses</p>
             
            <div class="btn">
+            <a href="./images/hero-right-img.png" download="hero-right-img.png"></a>
             <button>
               Try free demo
               <img
@@ -577,7 +558,7 @@
             <h6>Newsletter</h6>
             <h5>Over 25000 people have subscribed</h5>
             <div class="footer-submit">
-              <input placeholder="Enter your email" type="text" />
+              <input class="input" placeholder="Enter your email" type="text" />
               <button>Subscribe</button>
             </div>
             <a href="#">We don’t sell your email and spam</a>

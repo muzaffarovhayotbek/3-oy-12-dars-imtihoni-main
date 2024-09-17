@@ -8,8 +8,9 @@
   }
 }
 .hero-left {
-  width: 540px;
   h1 {
+    width: 540px;
+
     font-family: "Hind Siliguri";
     font-size: 96px;
     font-weight: 700;
@@ -22,11 +23,11 @@
     line-height: 38.81px;
     color: rgba(189, 189, 189, 1);
   }
- .btn{
-  gap: 24px;
-  display: flex;
-  align-items: center;
- }
+  .btn {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+  }
   button {
     display: flex;
     align-items: center;
@@ -43,16 +44,92 @@
     font-weight: 400;
     line-height: 38.81px;
     margin-top: 40px;
+    transition: all 0.5s;
   }
-  button:hover{
+  button:hover {
     cursor: pointer;
   }
-  p{
+  button:active {
+    transform: scale(0.85);
+  }
+  p {
     padding-top: 40px;
-font-family: 'Hind Siliguri';
-font-size: 24px;
-font-weight: 400;
-line-height: 38.81px;
+    font-family: "Hind Siliguri";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+  }
+}
 
+@media screen and (max-width: 992px) {
+  .container{
+    padding: 0 30px;
+  }
+  .hero__container {
+    flex-direction: column;
+  }
+  .container {
+    padding: 0;
+  }
+  .hero-left {
+    width: 540px;
+    h1 {
+      text-align: center;
+      font-size: 90px;
+      line-height: 90px;
+    }
+    p {
+      text-align: center;
+      font-size: 20px;
+      line-height: 34px;
+      color: rgba(189, 189, 189, 1);
+    }
+    .btn {
+      gap: 20px;
+      display: flex;
+      align-items: center;
+    }
+    button {
+      width: 220px;
+      height: 70px;
+      gap: 8px;
+      font-size: 20px;
+      line-height: 35px;
+      margin-top: 30px;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    padding: 0 25px;
+  }
+  .hero-left {
+    width: 510px;
+    h1 {
+      text-align: center;
+      font-size: 65px;
+      line-height: 65px;
+    }
+    p {
+      text-align: center;
+      font-size: 15px;
+      line-height: 24px;
+    }
+    .btn {
+      gap: 16px;
+      align-items: center;
+    }
+    button {
+      width: 205px;
+      height: 55px;
+      gap: 4px;
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 20px;
+    }
   }
 }

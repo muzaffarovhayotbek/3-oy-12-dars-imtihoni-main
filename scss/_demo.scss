@@ -5,12 +5,12 @@
   background-color: #ff7235;
   padding: 100px 130px;
   h2 {
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri";
     font-size: 72px;
     font-weight: 700;
     line-height: 72px;
     text-align: center;
-    
+
     text-align: center;
     color: #fff;
   }
@@ -42,7 +42,7 @@
   button:hover {
     cursor: pointer;
   }
-  button:active{
+  button:active {
     transform: scale(0.95);
   }
 }
@@ -56,5 +56,130 @@
   position: relative;
   img {
     position: absolute;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0 40px;
+  }
+  .demo__container {
+    align-items: center;
+    width: 992px;
+    padding: 100px 130px;
+  }
+  .demo-bcimg {
+    display: none;
+  }
+  h2 {
+    font-size: 50px;
+    line-height: 50px;
+
+    text-align: center;
+  }
+  p {
+    padding-top: 20px;
+
+    padding-top: 18px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+  }
+  button {
+    margin-top: 45px;
+    width: 200px;
+    height: 45px;
+    gap: 8px;
+    font-size: 18px;
+    line-height: 19.1px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  .demo__container {
+    background-color: transparent;
+
+    align-items: center;
+    width: 768px;
+    padding: 60px 90px;
+  }
+  .demo-bcimg {
+    display: none;
+  }
+
+  .demo-left {
+    h2 {
+      color: rgb(0, 0, 0);
+      font-size: 30px;
+      line-height: 30px;
+
+      text-align: center;
+    }
+    p {
+    padding-top: 18px;
+
+      color: rgb(0, 0, 0);
+      padding-top: 14px;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+    }
+  }
+  button {
+    margin-top: 35px;
+    width: 175px;
+    height: 35px;
+    gap: 5px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .demo {
+    margin-top: -300px;
+    margin-bottom: -400px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .container {
+    padding: 0 5px;
+  }
+  .demo__container {
+    background-color: transparent;
+    align-items: center;
+    width: 200px;
+    padding: 10px 10px;
+  }
+
+  .demo-left {
+    h2 {
+      font-size: 20px;
+      line-height: 20px;
+
+      text-align: center;
+    }
+    p {
+    padding-top: 15px;
+
+      color: black;
+      padding-top: 10px;
+      font-size: 10px;
+      line-height: 10px;
+      text-align: center;
+    }
+    button {
+      margin-top: 25px;
+      width: 140px;
+      height: 20px;
+      gap: 2px;
+      font-size: 10px;
+      line-height: 10px;
+    }
+  }
+  .demo {
+    margin-top: -300px;
+    margin-bottom: -400px;
   }
 }

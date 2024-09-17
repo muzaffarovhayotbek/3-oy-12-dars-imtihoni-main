@@ -1,14 +1,16 @@
 .demo__container {
   align-items: center;
-  width: 1440px;
+  width: 1110px;
   height: 750px;
   background-color: #ff7235;
   padding: 120px 260px 306px 260px;
   h2 {
-    font-family: "Hind Siliguri";
+    font-family: 'Hind Siliguri';
     font-size: 72px;
     font-weight: 700;
     line-height: 72px;
+    text-align: center;
+    
     text-align: center;
     color: #fff;
   }
@@ -43,6 +45,7 @@
   }
 }
 .demo-left {
+  width: 920px;
   display: flex;
   align-items: center;
   flex-direction: column;

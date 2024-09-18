@@ -41,30 +41,28 @@
   .nav__container {
     background-color: unset;
     width: 768px;
-  
+
     margin-bottom: 18px;
     height: 650px;
-  .container {
-    padding: 0 35px;
-  }
-  .nav-img {
-    width: 768px;
+    .container {
+      padding: 0 35px;
+    }
+    .nav-img {
+      width: 768px;
+    }
   }
 }
-}
-
-
 
 @media screen and (max-width: 568px) {
   .nav__container {
     width: 568px;
-  
+
     margin-bottom: 14px;
-  .container {
-    padding: 0 20px;
+    .container {
+      padding: 0 20px;
+    }
+    .nav-img {
+      width: 568px;
+    }
   }
-  .nav-img {
-    width: 568px;
-  }
-}
 }

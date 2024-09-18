@@ -36,10 +36,8 @@
     color: rgba(41, 40, 48, 1);
     transition: all 0.5s;
 
-    &:hover {
-      cursor: pointer;
-      text-decoration: underline;
-    }
+    list-style-type: disc;
+
   }
 }
 
@@ -68,7 +66,14 @@
     }
   }
 }
-
+.header-main{
+  header-ul{
+        a:hover {
+      list-style-type: disc;
+      color: red;
+    }
+  }
+}
 header {
   @include header-style();
 }

@@ -1,30 +1,31 @@
 .nav {
-  
-
 }
-.nav__container{
+.nav__container {
   background-color: rgba(255, 114, 53, 1);
   width: 1110px;
-  
-  padding: 87px 165px;
+
   margin-bottom: 24px;
   height: 712px;
-  text-overflow: hidden;
 
-}
-
-.logo {
-  margin-top: 100px;
-  margin-bottom: 69px;
-  align-items: center;
-  display: flex;
-  gap: 108px;
   img {
-    margin-bottom: 69px;
+    padding-top: 212px;
+    max-width: 80%;
+    width: 100%;
+    padding-left: 165px;
+    padding-right: 165px;
   }
-  img:hover {
-    filter: grayscale(50%) brightness(120%) contrast(80%) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
-    cursor: pointer;
+  .logo {
+    margin-top: -86px;
+    margin-bottom: -69px;
+    display: flex;
+    align-items: center;
+    img {
+      margin-bottom: 69px;
+    }
+    img:hover {
+      filter: grayscale(50%) brightness(120%) contrast(80%) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+      cursor: pointer;
+    }
   }
 }
 

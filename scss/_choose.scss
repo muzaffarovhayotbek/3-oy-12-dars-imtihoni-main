@@ -40,7 +40,7 @@ $light: #bdbdbd;
   justify-content: center;
 }
 
-.plan { 
+.plan {
   padding: 41px 114px 45px 40px;
   width: 350px;
   height: 500px;
@@ -330,190 +330,198 @@ p {
 
 @media screen and (max-width: 992px) {
   .container {
-    padding: 0 35px;
+    padding: 0 30px;
   }
   .choose__container {
     h2 {
-      padding-top: 110px;
+      padding-top: 100px;
       font-size: 60px;
       line-height: 60px;
     }
+  }
 
-    .plan_icon {
-      gap: 8px;
-      padding-top: 20px;
-      h2 {
-        font-size: 16px;
-        line-height: 27px;
-        padding-bottom: 6px;
+  .plan_icon {
+    gap: 8px;
+    padding-top: 20px;
+    h2 {
+      font-size: 16px;
+      line-height: 25px;
+      padding-bottom: 6px;
+    }
+  }
+
+  .plan_exp {
+    gap: 6px;
+
+    h2 {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .silver {
+    padding: 32px 80px 45px 25px;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    h2 {
+      font-size: 28px;
+      line-height: 46px;
+    }
+  }
+
+  .your {
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .plan {
+    h2 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    button {
+      align-items: center;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  .clo {
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 28px;
+      p {
+        padding-top: 8px;
+        font-size: 10px;
+        line-height: 16px;
       }
     }
-
-    .plan_exp {
+    .silver-exp {
       gap: 6px;
 
       h2 {
-        font-size: 16px;
-        line-height: 28px;
-      }
-    }
-
-    .silver {
-      padding: 35px 100px 50px 30px;
-      width: 310px;
-      height: 420px;
-      border-radius: 8px;
-      h2 {
-        font-size: 28px;
-        line-height: 46px;
-      }
-    }
-
-    .your {
-      gap: 16px;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .plan {
-      h2 {
-        font-size: 24px;
-        line-height: 40px;
-      }
-      button {
-        align-items: center;
-        font-size: 12px;
-        line-height: 18px;
-      }
-    }
-
-    .clo {
-      justify-content: center;
-      align-items: center;
-      gap: 6px;
-      h2 {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 15px;
+        line-height: 26px;
         text-align: center;
       }
-      h3 {
-        font-size: 20px;
-        line-height: 32px;
-        p {
-          padding-top: 8px;
-          font-size: 10px;
-          line-height: 16px;
-        }
-      }
-      .silver-exp {
-        gap: 6px;
 
+      .diamond {
+        padding: 32px 90px 50px 30px;
+        width: 300px;
+        height: 400px;
+        border-radius: 8px;
         h2 {
-          font-size: 15px;
-          line-height: 26px;
-          text-align: center;
-        }
-
-        .diamond {
-          padding: 35px 105px 50px 30px;
-          width: 310px;
-          height: 420px;
-          border-radius: 8px;
-          h2 {
-            font-size: 28px;
-            line-height: 47px;
-          }
+          font-size: 25px;
+          line-height: 35px;
         }
       }
+    }
+  }
+}
 
-      @media screen and (max-width: 768px) {
-        .choose__container {
-          background-color: unset;
-          .container {
-            padding: 0 20px;
-          }
-          .choose__container {
-            h2 {
-              text-align: center;
-              padding-top: 90px;
-              font-size: 45px;
-              line-height: 45px;
-            }
-          }
-          .plan_icon {
-            gap: 6px;
-            padding-top: 15px;
-            h2 {
-              font-size: 12px;
-              line-height: 22px;
-              padding-bottom: 4px;
-            }
-          }
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  .choose__container {
+    h2 {
+      padding-top: 90px;
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
 
-          .plan_exp {
-            gap: 4px;
+  .plan_icon {
+    gap: 6px;
+    padding-top: 18px;
+    h2 {
+      font-size: 14px;
+      line-height: 22px;
+      padding-bottom: 4px;
+    }
+  }
 
-            h2 {
-              text-align: center;
-              font-size: 14px;
-              line-height: 22px;
-            }
-          }
-        }
+  .plan_exp {
+    gap: 4px;
 
-        .your {
-          gap: 15px;
-          align-items: center;
-          justify-content: center;
-        }
+    h2 {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
 
-        .plan {
-          h2 {
-            text-align: center;
-            font-size: 18px;
-            line-height: 33px;
-          }
-          button {
-            text-align: center;
-            align-items: center;
-            font-size: 8px;
-            line-height: 14px;
-          }
-        }
+  .silver {
+    padding: 32px 80px 45px 25px;
+    width: 290px;
+    height: 390px;
+    border-radius: 6px;
+    h2 {
+      font-size: 25px;
+      line-height: 41px;
+    }
+  }
 
-        .clo {
-          justify-content: center;
-          align-items: center;
-          gap: 4px;
-          h2 {
-            text-align: center;
-            font-size: 12px;
-            line-height: 18px;
-            text-align: center;
-          }
-          h3 {
-            font-size: 16px;
-            line-height: 24px;
-            p {
-              padding-top: 6px;
-              font-size: 8px;
-              line-height: 14px;
-            }
-          }
-        }
+  .your {
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+  }
 
-        @media screen and (max-width: 568px) {
-          .container {
-            padding: 0 10px;
-          }
-          .choose__container {
-            h2 {
-              text-align: center;
-              padding-top: 60px;
-              font-size: 30px;
-              line-height: 30px;
-            }
-          }
+  .plan {
+    h2 {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    button {
+      align-items: center;
+      font-size: 9px;
+      line-height: 13px;
+    }
+  }
+
+  .clo {
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    h2 {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    h3 {
+      font-size: 17px;
+      line-height: 25px;
+      p {
+        padding-top: 6px;
+        font-size: 8px;
+        line-height: 14px;
+      }
+    }
+    .silver-exp {
+      gap: 4px;
+
+      h2 {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+      }
+
+      .diamond {
+        padding: 32px 90px 50px 30px;
+        width: 270px;
+        height: 270px;
+        border-radius: 6px;
+        h2 {
+          font-size: 12px;
+          line-height: 30px;
         }
       }
     }

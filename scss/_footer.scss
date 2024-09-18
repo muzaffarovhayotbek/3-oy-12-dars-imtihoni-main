@@ -221,11 +221,10 @@
   outline: none;
 }
 
-// Media Queries
 @media (max-width: 992px) {
   .footer__container {
-    padding-top: 60px;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 
     .footer-bottom {
       flex-direction: column;
@@ -239,23 +238,24 @@
 
   .footer-icon {
     margin-bottom: 200px;
-    margin-right: 120px;
+    margin-right: 110px;
 
     h5 {
       font-size: 20px;
     }
   }
 
-  .footer-link, .footer-legal {
-    margin-right: 80px;
+  .footer-link,
+  .footer-legal {
+    margin-right: 70px;
 
     h6 {
-      font-size: 22px;
+      font-size: 20px;
     }
   }
 
   .footer-input {
-    width: 300px;
+    width: 280px;
     height: auto;
 
     h6 {
@@ -271,7 +271,7 @@
     }
 
     .footer-submit {
-      width: 300px;
+      width: 280px;
       height: 52px;
 
       button {
@@ -288,16 +288,17 @@
 
   .footer-bottom {
     height: auto;
-    padding: 20px 0;
+    padding: 0 20px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .footer__container {
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 
     .footer-bottom {
+      flex-direction: column;
       align-items: center;
 
       .footer-bottom-left {
@@ -307,19 +308,20 @@
   }
 
   .footer-icon {
-    margin-bottom: 150px;
-    margin-right: 80px;
+    margin-bottom: 190px;
+    margin-right: 100px;
 
     h5 {
       font-size: 18px;
     }
   }
 
-  .footer-link, .footer-legal {
+  .footer-link,
+  .footer-legal {
     margin-right: 60px;
 
     h6 {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 
@@ -328,7 +330,7 @@
     height: auto;
 
     h6 {
-      font-size: 20px;
+      font-size: 18px;
     }
 
     a {
@@ -336,17 +338,17 @@
     }
 
     h5 {
-      font-size: 16px;
+      font-size: 14px;
     }
 
     .footer-submit {
-      width: 250px;
-      height: 48px;
+      width: 260px;
+      height: 52px;
 
       button {
-        width: 80px;
-        height: 36px;
-        font-size: 10px;
+        width: 90px;
+        height: 40px;
+        font-size: 12px;
       }
 
       input {
@@ -357,7 +359,7 @@
 
   .footer-bottom {
     height: auto;
-    padding: 10px 0;
+    padding: 0 15px;
   }
 }
 
@@ -385,7 +387,8 @@
     }
   }
 
-  .footer-link, .footer-legal {
+  .footer-link,
+  .footer-legal {
     margin-right: 20px;
 
     h6 {

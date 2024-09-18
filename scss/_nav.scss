@@ -30,39 +30,43 @@
 
 @media screen and (max-width: 992px) {
   .container {
-    padding: 0 40px;
+    padding: 0 30px;
+  }
+  .nav__container{
+    padding: 0 30px;
   }
   .nav-omg {
     width: 992px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .nav__container {
     background-color: unset;
     width: 768px;
-
+  
     margin-bottom: 18px;
     height: 650px;
-    .container {
-      padding: 0 35px;
-    }
-    .nav-img {
-      width: 768px;
-    }
+  .container {
+    padding: 0 35px;
+  }
+  .nav-img {
+    width: 768px;
   }
 }
+}
+
+
 
 @media screen and (max-width: 568px) {
   .nav__container {
     width: 568px;
-
+  
     margin-bottom: 14px;
-    .container {
-      padding: 0 20px;
-    }
-    .nav-img {
-      width: 568px;
-    }
+  .container {
+    padding: 0 20px;
   }
+  .nav-img {
+    width: 568px;
+  }
+}
 }

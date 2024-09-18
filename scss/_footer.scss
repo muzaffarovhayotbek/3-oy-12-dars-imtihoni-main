@@ -1,7 +1,7 @@
+// Global styling
 .footer__container {
   padding-top: 80px;
   padding-bottom: 90px;
-
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -30,6 +30,7 @@
   gap: 12px;
   margin-bottom: 300px;
   margin-right: 172px;
+
   h5 {
     font-family: sans-serif;
     font-size: 23px;
@@ -42,6 +43,7 @@
 
 .footer-link {
   margin-right: 123px;
+
   h6 {
     font-family: "Hind Siliguri";
     font-size: 24px;
@@ -67,12 +69,12 @@
 
 .footer-legal {
   margin-right: 128px;
+
   h6 {
     font-family: Hind Siliguri;
     font-size: 24px;
     font-weight: 500;
     line-height: 38.81px;
-
     margin-bottom: 18px;
   }
 
@@ -82,12 +84,11 @@
     gap: 8px;
 
     a {
-      font-family: "  Hind Siliguri";
+      font-family: "Hind Siliguri";
       font-size: 18px;
       font-weight: 500;
       line-height: 29.11px;
       text-align: left;
-
       color: #292830;
     }
   }
@@ -105,18 +106,17 @@
     font-weight: 500;
     line-height: 38.81px;
     text-align: left;
-
     margin-bottom: 24px;
     color: #000000;
   }
 
   a {
-    font-family: sans-serif; // o'zgaruvchi o'rniga qiymat
+    font-family: sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 22.64px;
     text-align: left;
-    color: #007bff; // o'zgaruvchi o'rniga qiymat
+    color: #007bff;
     margin-top: 10px;
   }
 
@@ -146,7 +146,6 @@
       background-color: #ff7235;
       border: none;
       border-radius: 8px;
-
       font-family: sans-serif;
       font-size: 14px;
       font-weight: 600;
@@ -170,7 +169,6 @@
       font-size: 18px;
       font-weight: 400;
       line-height: 29.11px;
-
       color: #292830;
       width: 200px;
       height: 40px;
@@ -182,6 +180,7 @@
 .footer-bottom {
   border-top: 3px solid #bdbdbd33;
   height: 150px;
+
   a {
     font-family: "Hind Siliguri";
     font-size: 14px;
@@ -207,7 +206,6 @@
     font-weight: 400;
     line-height: 22.64px;
     text-align: left;
-
     color: #000000;
   }
 }
@@ -221,4 +219,214 @@
 .input {
   border: 0;
   outline: none;
+}
+
+// Media Queries
+@media (max-width: 992px) {
+  .footer__container {
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+    .footer-bottom {
+      flex-direction: column;
+      align-items: center;
+
+      .footer-bottom-left {
+        gap: 4px;
+      }
+    }
+  }
+
+  .footer-icon {
+    margin-bottom: 200px;
+    margin-right: 120px;
+
+    h5 {
+      font-size: 20px;
+    }
+  }
+
+  .footer-link, .footer-legal {
+    margin-right: 80px;
+
+    h6 {
+      font-size: 22px;
+    }
+  }
+
+  .footer-input {
+    width: 300px;
+    height: auto;
+
+    h6 {
+      font-size: 22px;
+    }
+
+    a {
+      font-size: 12px;
+    }
+
+    h5 {
+      font-size: 18px;
+    }
+
+    .footer-submit {
+      width: 300px;
+      height: 52px;
+
+      button {
+        width: 90px;
+        height: 40px;
+        font-size: 12px;
+      }
+
+      input {
+        width: 180px;
+      }
+    }
+  }
+
+  .footer-bottom {
+    height: auto;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    .footer-bottom {
+      align-items: center;
+
+      .footer-bottom-left {
+        gap: 2px;
+      }
+    }
+  }
+
+  .footer-icon {
+    margin-bottom: 150px;
+    margin-right: 80px;
+
+    h5 {
+      font-size: 18px;
+    }
+  }
+
+  .footer-link, .footer-legal {
+    margin-right: 60px;
+
+    h6 {
+      font-size: 20px;
+    }
+  }
+
+  .footer-input {
+    width: 250px;
+    height: auto;
+
+    h6 {
+      font-size: 20px;
+    }
+
+    a {
+      font-size: 10px;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+
+    .footer-submit {
+      width: 250px;
+      height: 48px;
+
+      button {
+        width: 80px;
+        height: 36px;
+        font-size: 10px;
+      }
+
+      input {
+        width: 160px;
+      }
+    }
+  }
+
+  .footer-bottom {
+    height: auto;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 568px) {
+  .footer__container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    .footer-bottom {
+      flex-direction: column;
+      align-items: center;
+
+      .footer-bottom-left {
+        gap: 0;
+      }
+    }
+  }
+
+  .footer-icon {
+    margin-bottom: 100px;
+    margin-right: 40px;
+
+    h5 {
+      font-size: 16px;
+    }
+  }
+
+  .footer-link, .footer-legal {
+    margin-right: 20px;
+
+    h6 {
+      font-size: 18px;
+    }
+  }
+
+  .footer-input {
+    width: 200px;
+    height: auto;
+
+    h6 {
+      font-size: 18px;
+    }
+
+    a {
+      font-size: 8px;
+    }
+
+    h5 {
+      font-size: 14px;
+    }
+
+    .footer-submit {
+      width: 200px;
+      height: 44px;
+
+      button {
+        width: 70px;
+        height: 32px;
+        font-size: 8px;
+      }
+
+      input {
+        width: 140px;
+      }
+    }
+  }
+
+  .footer-bottom {
+    height: auto;
+    padding: 5px 0;
+  }
 }

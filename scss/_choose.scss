@@ -38,7 +38,6 @@ $light: #bdbdbd;
   gap: 30px;
   align-items: center;
   justify-content: center;
-  // padding-top: 80px;
 }
 
 .plan {
@@ -251,87 +250,86 @@ p {
     line-height: 51.74px;
     color: $dark;
   }
-  
-  .diamond_icon {
-  display: flex;
-  align-items: center;
-  gap: 8px;
 
-  h2 {
+  .diamond_icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    h2 {
+      font-family: $primary-font;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 29.11px;
+      color: $dark;
+    }
+  }
+
+  .diamond-exp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    h2 {
+      font-family: $primary-font;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 29.11px;
+      text-align: left;
+    }
+  }
+
+  .diamond_cloud {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    h2 {
+      font-family: $primary-font;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 29.11px;
+    }
+  }
+  h3 {
+    padding-top: 24px;
     font-family: $primary-font;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 29.11px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.81px;
     color: $dark;
   }
-}
-
-.diamond-exp {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  h2 {
+  p {
     font-family: $primary-font;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 29.11px;
-    text-align: left;
+    line-height: 19.4px;
+    color: $light;
+  }
+  .diamond-icon-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  button {
+    margin-top: 40px;
+    width: 136px;
+    height: 50px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #ff7235;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.87px;
+    color: #ff7235;
   }
 }
-
-.diamond_cloud {
-  padding-top: 24px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  h2 {
-    font-family: $primary-font;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 29.11px;
-  }
-}
-h3 {
-  padding-top: 24px;
-  font-family: $primary-font;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 38.81px;
-  color: $dark;
-}
-p {
-  font-family: $primary-font;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 19.4px;
-  color: $light;
-}
-.diamond-icon-btn{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-button {
-  margin-top: 40px;
-  width: 136px;
-  height: 50px;
-  gap: 10px;
-  border: none;
-  border-radius: 8px;
-  border: 1px solid #ff7235;
-  font-family: "Hind Siliguri";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25.87px;
-  color: #ff7235;
-}
-}
-
 
 @media screen and (max-width: 992px) {
-  .container{
+  .container {
     padding: 0 35px;
   }
   .choose__container {
@@ -340,40 +338,184 @@ button {
       font-size: 60px;
       line-height: 60px;
     }
-  }
-}
 
+    .plan_icon {
+      gap: 8px;
+      padding-top: 20px;
+      h2 {
+        font-size: 16px;
+        line-height: 27px;
+        padding-bottom: 6px;
+      }
+    }
 
-@media screen and (max-width: 768px) {
-  .choose__container {
-    background-color: unset;
-  .container{
-    padding: 0 20px;
-  }
-  .choose__container {
-    h2 {
-      text-align: center;
-      padding-top: 90px;
-      font-size: 45px;
-      line-height: 45px;
+    .plan_exp {
+      gap: 6px;
+
+      h2 {
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+
+    .silver {
+      padding: 35px 100px 50px 30px;
+      width: 310px;
+      height: 420px;
+      border-radius: 8px;
+      h2 {
+        font-size: 28px;
+        line-height: 46px;
+      }
+    }
+
+    .your {
+      gap: 16px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .plan {
+      h2 {
+        font-size: 24px;
+        line-height: 40px;
+      }
+      button {
+        align-items: center;
+        font-size: 12px;
+        line-height: 18px;
+      }
+    }
+
+    .clo {
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      h2 {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+      }
+      h3 {
+        font-size: 20px;
+        line-height: 32px;
+        p {
+          padding-top: 8px;
+          font-size: 10px;
+          line-height: 16px;
+        }
+      }
+      .silver-exp {
+        gap: 6px;
+
+        h2 {
+          font-size: 15px;
+          line-height: 26px;
+          text-align: center;
+        }
+
+        .diamond {
+          padding: 35px 105px 50px 30px;
+          width: 310px;
+          height: 420px;
+          border-radius: 8px;
+          h2 {
+            font-size: 28px;
+            line-height: 47px;
+          }
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .choose__container {
+          background-color: unset;
+          .container {
+            padding: 0 20px;
+          }
+          .choose__container {
+            h2 {
+              text-align: center;
+              padding-top: 90px;
+              font-size: 45px;
+              line-height: 45px;
+            }
+          }
+          .plan_icon {
+            gap: 6px;
+            padding-top: 15px;
+            h2 {
+              font-size: 12px;
+              line-height: 22px;
+              padding-bottom: 4px;
+            }
+          }
+
+          .plan_exp {
+            gap: 4px;
+
+            h2 {
+              text-align: center;
+              font-size: 14px;
+              line-height: 22px;
+            }
+          }
+        }
+
+        .your {
+          gap: 15px;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .plan {
+          h2 {
+            text-align: center;
+            font-size: 18px;
+            line-height: 33px;
+          }
+          button {
+            text-align: center;
+            align-items: center;
+            font-size: 8px;
+            line-height: 14px;
+          }
+        }
+
+        .clo {
+          justify-content: center;
+          align-items: center;
+          gap: 4px;
+          h2 {
+            text-align: center;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+          }
+          h3 {
+            font-size: 16px;
+            line-height: 24px;
+            p {
+              padding-top: 6px;
+              font-size: 8px;
+              line-height: 14px;
+            }
+          }
+        }
+
+        @media screen and (max-width: 568px) {
+          .container {
+            padding: 0 10px;
+          }
+          .choose__container {
+            h2 {
+              text-align: center;
+              padding-top: 60px;
+              font-size: 30px;
+              line-height: 30px;
+            }
+          }
+        }
+      }
     }
   }
-  }
 }
-
-
-
-
-@media screen and (max-width: 568px) {
-  .container{
-    padding: 0 10px;
-  }
-  .choose__container {
-    h2 {
-      text-align: center;
-      padding-top: 60px;
-      font-size: 30px;
-      line-height: 30px;
-    }
-  }
-  }

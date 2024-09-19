@@ -1,0 +1,83 @@
+.loder{
+  margin-top: 45px;
+}
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .blue-mode {
+    background-color: #cce7ff;
+    color: #003d66;
+  }
+  
+  .green-mode {
+    background-color: #d4f1c7;
+    color: #004d00;
+  }
+  
+  .dark-mode {
+    .light-mode {
+      background-color: #ffffff;
+      color: #000000;
+    }
+    
+    .dark-mode {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    
+    .mode-selector {
+      top: 10px;
+      right: 10px;
+      display: flex;
+      gap: 10px;
+    }
+    
+    .toggle-mode-btn {
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: #333;
+      color: #fff;
+    }
+    
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .mode-selector {
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .mode-selector button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .light-mode-btn {
+    background-color: #f0f0f0;
+    color: #000000;
+  }
+  
+  .blue-mode-btn {
+    background-color: #0066cc;
+    color: #ffffff;
+  }
+  
+  .green-mode-btn {
+    background-color: #009933;
+    color: #ffffff;
+  }
+  
+  .dark-mode-btn {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
